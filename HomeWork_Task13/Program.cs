@@ -10,12 +10,12 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Введите число: ");
-       string numb = Console.ReadLine();
-       if(numb.Length < 3)
-       {
-        Console.WriteLine("Третьей цифры нет");
-       }
-       else
-       Console.WriteLine(numb[2]);
+        string numb = Console.ReadLine();
+        if (numb.Length < 3)
+        {
+            Console.WriteLine("Третьей цифры нет");
+        }
+        else
+            Console.WriteLine(numb[2]);
     }
 }
